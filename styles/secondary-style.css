@@ -1,0 +1,63 @@
+/**
+    project-template.html styles
+*/
+
+#project-nav a {
+    display: flex;
+    justify-content: center;
+}
+
+#project-nav li:hover {
+    background:#262f35;
+}
+
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+    background: url('../assets/banjo.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
+}
+
+.jumbotron p {
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+    max-width: 40rem;
+    background: rgba(255,255,255,0.2);
+    padding: 2rem;
+    color: white;
+}
+
+#how-it-helped {
+    background: url('../assets/girlincar.jpg') center center no-repeat;
+    padding: 8rem 0;
+    margin-top: 2rem;
+}
+
+#how-it-helped .container div {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
