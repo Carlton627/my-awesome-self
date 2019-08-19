@@ -29,15 +29,14 @@
             <div class="row mt-5">
                 <div class="col-lg-5">
                     <h6>Technologies used</h6><hr>
-                    <ul class="">
+                    <ul>
                         <li>Embedded C</li>
-                        <li></li>
-                        <li></li>
+                        <li>Bluetooth low energy communication</li>
                     </ul>
                 </div>
                 <div class="col-lg-5 offset-lg-1">
                     <h6>Skills strengthened</h6><hr>
-                    <ul class="">
+                    <ul>
                         <li>Team work</li>
                         <li>Coding</li>
                     </ul>

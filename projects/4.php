@@ -28,7 +28,7 @@
                 <div class="row mt-5">
                     <div class="col-lg-5">
                         <h6>Technologies used</h6><hr>
-                        <ul class="">
+                        <ul>
                             <li>HTML5</li>
                             <li>CSS3</li>
                             <li>Javascript</li>
@@ -36,7 +36,7 @@
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <h6>Skills strengthened</h6><hr>
-                        <ul class="">
+                        <ul>
                             <li>Team work</li>
                             <li>Communications</li>
                             <li>Coding</li>

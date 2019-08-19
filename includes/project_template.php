@@ -13,16 +13,16 @@
         <div class="collapse navbar-collapse" id="project-nav">
             <ul class="navbar-nav mt-2">
                 <li class="nav-item">
-                    <a class="nav-link" href="../projects/1.php">Project 1 <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../projects/1.php">Alexa Powered Robot <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../projects/2.php">Project 2</a>
+                    <a class="nav-link" href="../projects/2.php">Emotia: A mental health assessment tool</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../projects/3.php">Project 3</a>
+                    <a class="nav-link" href="../projects/3.php">Django Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../projects/4.php">Project 4</a>
+                    <a class="nav-link" href="../projects/4.php">8 &times; 8 &times; 8 LED cube</a>
                 </li>
             </ul>
         </div>
