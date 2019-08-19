@@ -1,4 +1,4 @@
-<?php include 'header.php' ?>
+<?php include 'header.html' ?>
     <link rel="stylesheet" href="../styles/secondary-style.css">
 </head>
 
@@ -13,25 +13,22 @@
         <div class="collapse navbar-collapse" id="project-nav">
             <ul class="navbar-nav mt-2">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Project 1 <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="../projects/1.php">Project 1 <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Project 2</a>
+                    <a class="nav-link" href="../projects/2.php">Project 2</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Project 3</a>
+                    <a class="nav-link" href="../projects/3.php">Project 3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../projects/4.php">Project 4</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div id="project-stage" class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Fluid jumbotron</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
-    </div>
-
+    
     
 
     

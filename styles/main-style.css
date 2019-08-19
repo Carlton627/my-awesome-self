@@ -18,21 +18,22 @@ img {
 }
 
 #stage {
-    background: url("../assets/stage.jpg") center center no-repeat;
+    background: rgba(21, 21, 65, 0.295);
     background-size: cover;
-    color: white;
     height: 100%;
     width: 100%;
-    display: flex;
-    align-items: center;
 }
 
 #stage-caption {
     font-size: 1.4rem;
     font-weight: 200;
     max-width: 60rem;
-    margin: 0 auto;
-    text-align: center;
+    margin-top: 7rem;
+    text-align: left;
+}
+
+#stage-img {
+    margin-top: 1.6rem;
 }
 
 #about {
@@ -89,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #news {
     padding: 6rem 0;
-    background: #262f20;
+    background: rgba(21, 21, 65, 0.295);
 }
 
 #main-footer {
@@ -98,8 +99,14 @@ h1, h2, h3, h4, h5, h6 {
     padding: 6rem 0;
 }
 
+#main-footer ul li {
+    display: flex;
+    justify-content: center;
+    padding: 0.2rem 0;
+}
+
+
 #news h3 {
-    color: white;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
@@ -109,7 +116,6 @@ h1, h2, h3, h4, h5, h6 {
 .attribution {
     display: flex;
     justify-content: flex-end;
-    color: white;
 }
 
 .attribution p{

@@ -1,4 +1,4 @@
-<?php include 'includes/header.php'; ?>
+<?php include 'includes/header.html' ?>
 </head>
 <body>
     <!-- Navigation Bar   -->
@@ -12,7 +12,7 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item"> 
                     <a class="nav-link" href="#projects">Projects</a>
                 </li> 
                 <li class="nav-item">
@@ -28,15 +28,22 @@
         </div>
     </nav>
     
-    
     <!-- Beginning view   -->
-    <div id="stage">
-        <div id="stage-caption">
-            <h1 class="display-3">Some crazy guy, doing far more crazy things</h1>
-            <p>Incididunt nam elit de quo quem aliquip ex ex nulla nam lorem, mentitum 
-                illustriora nam officia.</p>
+    <section id="stage">
+        <div class="container">
+            <div class="row">
+                <div id="stage-caption" class="col-lg-6">
+                    <h1 class="display-3 mb-4">Some crazy guy, doing far more crazy things</h1> 
+                    <p class="mb-4">Hi, I am Carlton Rodrigues<br>A bachelor of engineering in Computer Science</p>
+                    <a href="#about" class="btn btn-outline-success btn-lg">About me</a>
+                    <a href="" class="btn btn-outline-success btn-lg">View Resume</a>
+                </div>
+                <div id="stage-img" class="offset-lg-1 col-lg-5 d-none d-lg-block">
+                    <img src="assets/cover_pic-removebg-preview.png" alt="">
+                </div>
+            </div>
         </div>
-    </div> 
+    </section>
     
     <section id="projects">
         <div class="container">
@@ -45,9 +52,9 @@
             <div class="card-deck">
                 <div class="row">
                     <div class="card">
-                        <img src="assets/chalkboard.jpg" class="card-img-top" alt="...">
+                        <img src="" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Alexa Powered Robot</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <a href="projects/1.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
@@ -56,22 +63,11 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="assets/programming.jpg" class="card-img-top" alt="...">
+                        <img src="" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Emotia - Mental Health Assessment Tool</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="project_template.html" class="btn btn-lg btn-outline-success">Check out</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/computer.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="project_template.html" class="btn btn-lg btn-outline-success">Check out</a>
+                            <a href="projects/2.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
@@ -80,33 +76,22 @@
                 </div>
                 <div class="row mt-5">
                     <div class="card">
-                        <img src="assets/computer.jpg" class="card-img-top" alt="...">
+                        <img src="" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">Blog Website - Django Framework</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="project_template.html" class="btn btn-lg btn-outline-success">Check out</a>
+                            <a href="projects/3.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="assets/chalkboard.jpg" class="card-img-top" alt="...">
+                        <img src="" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
+                            <h5 class="card-title">8&times;8&times;8 LED Cube</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="project_template.html" class="btn btn-lg btn-outline-success">Check out</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="assets/programming.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="project_template.html" class="btn btn-lg btn-outline-success">Check out</a>
+                            <a href="projects/4.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated 3 mins ago</small>
@@ -210,7 +195,7 @@
                         de quamquam fidelissimae. Te irure ipsum de pariatur. An excepteur domesticarum. 
                         Ipsum despicationes cupidatat quorum appellat.</p>
                 </div>
-                <div class="col-lg-5 offset-lg-1 d-none d-lg-block">
+                <div class="col-lg-5 offset-lg-1">
                     <img class="img-style" src="assets/about_carl.jpg" alt="">
                     <hr>
                     <a href="timeline.html" class="btn btn-lg btn-outline-success">View Timeline</a>
@@ -289,7 +274,7 @@
     </section>
     
     <!-- Footer Section  -->
-    <?php include 'includes/footer.php'; ?>
+    <?php include 'includes/footer.html' ?>
 
     <script src="js/news.js" type="text/javascript"></script>
 </body>
