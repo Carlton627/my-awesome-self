@@ -76,7 +76,7 @@
 
         <section id="team-members">
             <div class="container mt-5 mb-5">
-                <h3>Team members</h3><hr>
+                <h3>The Team</h3><hr>
                 <div class="card-deck">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">

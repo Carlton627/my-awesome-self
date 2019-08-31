@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    width: auto;
 }
 
 body {
@@ -20,7 +21,7 @@ img {
 #stage {
     background: rgba(21, 21, 65, 0.295);
     background-size: cover;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 

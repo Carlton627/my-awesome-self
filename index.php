@@ -35,8 +35,8 @@
                 <div id="stage-caption" class="col-lg-6">
                     <h1 class="display-3 mb-4">Some crazy guy, doing far more crazy things</h1> 
                     <p class="mb-4">Hi, I am Carlton Rodrigues<br>A bachelor of engineering in Computer Science</p>
-                    <a href="#about" class="btn btn-outline-success btn-lg">About me</a>
-                    <a href="" class="btn btn-outline-success btn-lg">View Resume</a>
+                    <a href="#about" class="btn btn-success btn-lg">About me</a>
+                    <a href="" class="btn btn-success btn-lg">View Resume</a>
                 </div>
                 <div id="stage-img" class="offset-lg-1 col-lg-5 d-none d-lg-block">
                     <img src="assets/cover_pic-removebg-preview.png" alt="">

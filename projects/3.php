@@ -2,8 +2,8 @@
 
     <div id="project-stage" class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Django Blog</h1>
-            <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+            <h1 class="display-4">Blog-post web application</h1>
+            <p class="lead">Using Django Framework</p>
         </div>
     </div>
     
@@ -15,7 +15,7 @@
                 
                 <div class="row">
                     <div class="col-lg-6">
-                        <img class="img-style" src="../assets/computer.jpg" alt="computer">
+                        <img class="img-style" src="../assets/python-django-logo.jpg" alt="django">
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <!-- TODO: fix alignment of abstract on small devices -->
@@ -50,10 +50,14 @@
 
         <section id="how-it-helped">
             <div class="container">
-                <div class="col-lg-8">
-                    <h3>Lorem Header</h3><hr>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, eius nulla dolorem facilis perspiciatis deserunt. Accusamus molestiae et repudiandae nulla est, saepe vero aut itaque maxime debitis. Alias quae at deserunt amet minus. Sint perferendis suscipit non voluptate eos autem deserunt distinctio ad quod, reiciendis accusamus explicabo id provident asperiores tempore animi quo laboriosam officiis? Dolor, illo aspernatur. Inventore, fugit eos explicabo enim rerum id cumque voluptatem ipsam voluptas accusantium veniam nihil ullam quia expedita labore necessitatibus dolor est nostrum aut quam atque dolorem. 
-                    Ratione minima amet eveniet repellat tempore nihil iusto a, pariatur beatae rerum placeat facere, quasi id!</p>
+                <div class="px-4 py-4">
+                    <h3>How it helped me?</h3><hr>
+                    <p>
+                        I used to always think that going the HTML5, CSS3, Javascript and PHP way was always the way to develop any type of website / web application.
+                        The Django framework was introduced to me in my degree college, that was it a whole world of frameworks and technologies opened up and I learnt 
+                        how to explore better on a topic before coming to conclusions. Along with a totally new way of developing web applications, learning this framework
+                        brought out a lot of new concepts.
+                    </p>
                 </div>
             </div>
         </section>
@@ -66,7 +70,7 @@
 
         <section id="team-members">
             <div class="container mt-5 mb-5">
-                <h3>Team members</h3><hr>
+                <h3>The Team</h3><hr>
                 <div class="card-deck">
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
