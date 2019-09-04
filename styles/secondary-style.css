@@ -61,3 +61,18 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+iframe {
+    height: 20rem;
+    width: 100%;
+    
+}
+
+#project-showcase {
+    padding: 3rem 0;
+}
+
+.card-img-top {
+    height: 450px;
+    width: inherit;
+}

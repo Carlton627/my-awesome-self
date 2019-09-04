@@ -59,14 +59,14 @@
         <section id="project-showcase">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-7">
                         <h3>Video</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Recusandae quod qui soluta, architecto ratione animi inventore. Vel labore quidem obcaecati soluta similique, aliquid ipsum totam saepe beatae odio error voluptatibus doloremque quis ullam delectus, voluptates eius quo, tenetur aspernatur porro mollitia asperiores nam consequatur. 
                         Illum sed expedita culpa rem laudantium.</p>
                     </div>
-                    <div class="col-lg-4 offset-lg-1">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jTDqS0HN0Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <div class="col-lg-5">
+                        <iframe src="https://www.youtube.com/embed/jTDqS0HN0Vc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                         </iframe>
                     </div>
                 </div>
@@ -81,25 +81,16 @@
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">John Baptist Rodrigues</h5>
+                            <h5 class="card-title">Santan Edwin Fernandes</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Alston D'souza</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
+                    
                     <div class="card">
                         <img src="..." class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Carlton Rodrigues</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
                 </div>
@@ -107,6 +98,6 @@
         </section>
 
         <!-- Footer Section  -->
-        <?php include '../includes/project_footer.html' ?>
+        <?php include '../includes/project_footer.php' ?>
     </body>
 </html>

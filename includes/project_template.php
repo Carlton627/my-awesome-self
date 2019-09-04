@@ -1,4 +1,6 @@
-<?php include 'header.html' ?>
+<?php 
+    include 'header.html'; 
+?>
     <link rel="stylesheet" href="../styles/secondary-style.css">
 </head>
 

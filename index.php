@@ -1,22 +1,24 @@
-<?php include 'includes/header.html' ?>
+<?php 
+    include 'includes/header.html';
+?>
 </head>
 <body>
     <!-- Navigation Bar   -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
-        <a class="navbar-brand" href="index.php">Hidden brand</a>
+        <a class="navbar-brand" href="">Hidden brand</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="">Home</a>
                 </li>
                 <li class="nav-item"> 
                     <a class="nav-link" href="#projects">Projects</a>
                 </li> 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Ideas</a>
+                    <a class="nav-link" href="#interests">Interests</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -39,7 +41,7 @@
                     <a href="" class="btn btn-success btn-lg">View Resume</a>
                 </div>
                 <div id="stage-img" class="offset-lg-1 col-lg-5 d-none d-lg-block">
-                    <img src="assets/cover_pic-removebg-preview.png" alt="">
+                    <img src="assets/cover_pic.png" alt="That's Carlton">
                 </div>
             </div>
         </div>
@@ -70,7 +72,7 @@
                             <a href="projects/2.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <small class="text-muted">Feb 2019 to May 2019</small>
                         </div>
                     </div>
                 </div>
@@ -102,7 +104,7 @@
         </div>
     </section>   
     
-    <section id="ideas">
+    <section id="interests">
         <div class="container">
             <h3 class="display-3 text-center">Interests</h3>
             <hr>
@@ -198,7 +200,7 @@
                 <div class="col-lg-5 offset-lg-1">
                     <img class="img-style" src="assets/about_carl.jpg" alt="">
                     <hr>
-                    <a href="timeline.html" class="btn btn-lg btn-outline-success">View Timeline</a>
+                    <a href="" class="btn btn-lg btn-outline-success" target="_blank">View Resume</a>
                     <h5 class="mt-4 mb-3">Connect with me</h5>
                     <a href="" class="fa fa-facebook"></a>
                     <a href="" class="fa fa-linkedin"></a>
@@ -274,7 +276,7 @@
     </section>
     
     <!-- Footer Section  -->
-    <?php include 'includes/footer.html' ?>
+    <?php include 'includes/footer.php' ?>
 
     <script src="js/news.js" type="text/javascript"></script>
 </body>
