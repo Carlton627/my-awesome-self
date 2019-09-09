@@ -3,25 +3,25 @@
     <div id="project-stage" class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Blog-post web application</h1>
-            <p class="lead">Using Django Framework</p>
+            <p class="lead">A mini project done during my final year in B.E.</p>
         </div>
     </div>
     
         <section id="project-desc">
             <div class="container mt-5">
-                <h3>Project Header Fancy</h3><hr>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt id quasi dolorem quis assumenda sint asperiores 
-                        eveniet porro enim saepe vitae nihil, debitis qui soluta quia illum ex, laborum facilis.</p>
+                <h3>Blog-post using django framework</h3><hr>
+                <p>A simple blog with out the log in facility, only the admin can create and delete posts.</p>
                 
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-lg-6">
                         <img class="img-style" src="../assets/python-django-logo.jpg" alt="django">
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <!-- TODO: fix alignment of abstract on small devices -->
                         <h6>ABSTRACT</h6>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur illo corporis suscipit deleniti facilis et expedita, commodi minus id quasi sapiente blanditiis animi quia doloremque rerum atque optio deserunt harum similique culpa iure ipsam aliquam? Expedita iure in corrupti magnam iusto, veniam nesciunt sapiente consequuntur facere quas, ducimus molestias dolore! Nostrum molestias ad quo quasi consequatur quibusdam quia recusandae nihil! Voluptatibus accusantium nisi delectus beatae adipisci. Fuga quidem officia iste provident aliquam, mollitia sint magnam placeat modi? Aliquid amet magnam soluta placeat, explicabo dicta in quis reiciendis earum iste quaerat 
-                            optio temporibus non, facilis, architecto eos consequuntur est vel facere.</p>
+                        <p>This project was done to explore the Django framework. 
+                        This project helped me with choosing the framework for my final year project <a href="../projects/2.php">Emotia</a>. 
+                        These web development frameworks make it really easy for developers to get an application up and running quickly.</p>
                     </div>
                 </div>
 
@@ -39,9 +39,9 @@
                     <div class="col-lg-5 offset-lg-1">
                         <h6>Skills strengthened</h6><hr>
                         <ul>
-                            <li>Team work</li>
-                            <li>Communication</li>
-                            <li>Coding</li>
+                            <li>Python Programming</li>
+                            <li>Web Application Development</li>
+                            <li>Git &amp; GitHub</li>
                         </ul>
                     </div>
                 </div>
@@ -50,13 +50,13 @@
 
         <section id="how-it-helped">
             <div class="container">
-                <div class="px-4 py-4">
+                <div class="">
                     <h3>How it helped me?</h3><hr>
                     <p>
-                        I used to always think that going the HTML5, CSS3, Javascript and PHP way was always the way to develop any type of website / web application.
-                        The Django framework was introduced to me in my degree college, that was it a whole world of frameworks and technologies opened up and I learnt 
-                        how to explore better on a topic before coming to conclusions. Along with a totally new way of developing web applications, learning this framework
-                        brought out a lot of new concepts.
+                    I used to always think that going the HTML5, CSS3, Javascript and PHP way was always the way to develop any type of website/web application. 
+                    The Django framework was introduced to me in my degree college, that was it a whole world of frameworks and technologies opened up and 
+                    I learned how to explore better on a topic before coming to conclusions. 
+                    Along with a totally new way of developing web applications, learning this framework brought out a lot of new concepts.
                     </p>
                 </div>
             </div>

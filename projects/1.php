@@ -3,26 +3,25 @@
     <div id="project-stage" class="jumbotron jumbotron-fluid">
         <div class="container">
             <h1 class="display-4">Alexa Powered Robot</h1>
-            <p class="lead">Using the Amazon Echo Dot&trade; and the NodeMCU protoyping board</p>
+            <p class="lead">A mini robotics project done during my 3rd year of B.E.</p>
         </div>
     </div>
     
 
     <section id="project-desc">
         <div class="container mt-5">
-            <h3>Project Header Fancy</h3><hr>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt id quasi dolorem quis assumenda sint asperiores 
-                    eveniet porro enim saepe vitae nihil, debitis qui soluta quia illum ex, laborum facilis.</p>
+            <h3>Alexa Powered Robot using the Amazon Echo Dot&trade; and the NodeMCU protoyping board</h3><hr>
+            <p></p>
             
-            <div class="row">
+            <div class="row mt-5">
                 <div class="col-lg-6">
-                    <img class="img-style" src="../assets/computer.jpg" alt="computer">
+                    <caption><h5>The Amazon Echo Dot&trade;</h5></caption><br>
+                    <img class="img-style" src="../assets/alexa_img.png" alt="computer">
                 </div>
                 <div class="col-lg-5 offset-lg-1">
                     <!-- TODO: fix alignment of abstract on small devices -->
                     <h6>ABSTRACT</h6>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur illo corporis suscipit deleniti facilis et expedita, commodi minus id quasi sapiente blanditiis animi quia doloremque rerum atque optio deserunt harum similique culpa iure ipsam aliquam? Expedita iure in corrupti magnam iusto, veniam nesciunt sapiente consequuntur facere quas, ducimus molestias dolore! Nostrum molestias ad quo quasi consequatur quibusdam quia recusandae nihil! Voluptatibus accusantium nisi delectus beatae adipisci. Fuga quidem officia iste provident aliquam, mollitia sint magnam placeat modi? Aliquid amet magnam soluta placeat, explicabo dicta in quis reiciendis earum iste quaerat 
-                        optio temporibus non, facilis, architecto eos consequuntur est vel facere.</p>
+                    <p></p>
                 </div>
             </div>
 
@@ -37,8 +36,9 @@
                 <div class="col-lg-5 offset-lg-1">
                     <h6>Skills strengthened</h6><hr>
                     <ul>
-                        <li>Team work</li>
-                        <li>Coding</li>
+                        <li>C programming</li>
+                        <li>Electronics prototyping</li>
+                        <li>Resiliency</li>
                     </ul>
                 </div>
             </div>
@@ -47,10 +47,9 @@
 
     <section id="how-it-helped">
         <div class="container">
-            <div class="col-lg-8">
-                <h3>Lorem Header</h3><hr>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, eius nulla dolorem facilis perspiciatis deserunt. Accusamus molestiae et repudiandae nulla est, saepe vero aut itaque maxime debitis. Alias quae at deserunt amet minus. Sint perferendis suscipit non voluptate eos autem deserunt distinctio ad quod, reiciendis accusamus explicabo id provident asperiores tempore animi quo laboriosam officiis? Dolor, illo aspernatur. Inventore, fugit eos explicabo enim rerum id cumque voluptatem ipsam voluptas accusantium veniam nihil ullam quia expedita labore necessitatibus dolor est nostrum aut quam atque dolorem. 
-                Ratione minima amet eveniet repellat tempore nihil iusto a, pariatur beatae rerum placeat facere, quasi id!</p>
+            <div class="">
+                <h3>How it helped me?</h3><hr>
+                <p></p>
             </div>
         </div>
     </section>
@@ -61,9 +60,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <h3>Video</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Recusandae quod qui soluta, architecto ratione animi inventore. Vel labore quidem obcaecati soluta similique, aliquid ipsum totam saepe beatae odio error voluptatibus doloremque quis ullam delectus, voluptates eius quo, tenetur aspernatur porro mollitia asperiores nam consequatur. 
-                    Illum sed expedita culpa rem laudantium.</p>
+                    <p>Insert text here</p>
                 </div>
                 <div class="col-lg-5">
                     <iframe src="https://www.youtube.com/embed/L4F0gZIpK3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>

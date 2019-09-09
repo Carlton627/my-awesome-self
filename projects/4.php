@@ -13,7 +13,7 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt id quasi dolorem quis assumenda sint asperiores 
                         eveniet porro enim saepe vitae nihil, debitis qui soluta quia illum ex, laborum facilis.</p>
                 
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-lg-6">
                         <img class="img-style" src="../assets/computer.jpg" alt="computer">
                     </div>
@@ -48,8 +48,8 @@
 
         <section id="how-it-helped">
             <div class="container">
-                <div class="col-lg-8">
-                    <h3>Lorem Header</h3><hr>
+                <div class="">
+                    <h3>How it helped me?</h3><hr>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, eius nulla dolorem facilis perspiciatis deserunt. Accusamus molestiae et repudiandae nulla est, saepe vero aut itaque maxime debitis. Alias quae at deserunt amet minus. Sint perferendis suscipit non voluptate eos autem deserunt distinctio ad quod, reiciendis accusamus explicabo id provident asperiores tempore animi quo laboriosam officiis? Dolor, illo aspernatur. Inventore, fugit eos explicabo enim rerum id cumque voluptatem ipsam voluptas accusantium veniam nihil ullam quia expedita labore necessitatibus dolor est nostrum aut quam atque dolorem. 
                     Ratione minima amet eveniet repellat tempore nihil iusto a, pariatur beatae rerum placeat facere, quasi id!</p>
                 </div>

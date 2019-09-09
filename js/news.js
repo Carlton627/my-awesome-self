@@ -8,7 +8,6 @@
 let country = 'in';
 var url = 'https://newsapi.org/v2/top-headlines?' +
             'country='+country+'&'+ 'category=science&'+ 'q=space&'+
-            'from=2019-08-07&' +
             'sortBy=popularity&' +
             'apiKey=ccd7ee5214ee4f8bbdc0e8be3f0ae011';
 

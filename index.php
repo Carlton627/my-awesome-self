@@ -5,7 +5,7 @@
 <body>
     <!-- Navigation Bar   -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
-        <a class="navbar-brand" href="">Hidden brand</a>
+        <a class="navbar-brand" href="">Carlton</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -24,7 +24,7 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Resume</a>
+                    <a class="nav-link" href="assets/my_resume.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
         </div>
@@ -36,9 +36,9 @@
             <div class="row">
                 <div id="stage-caption" class="col-lg-6">
                     <h1 class="display-3 mb-4">Some crazy guy, doing far more crazy things</h1> 
-                    <p class="mb-4">Hi, I am Carlton Rodrigues<br>A bachelor of engineering in Computer Science</p>
+                    <p class="mb-4">Hi, I am Carlton Rodrigues<br>A bachelor of engineering in Computer Science<br>Currently based out of Mumbai city</p>
                     <a href="#about" class="btn btn-success btn-lg">About me</a>
-                    <a href="" class="btn btn-success btn-lg">View Resume</a>
+                    <a href="assets/my_resume.pdf" target="_blank" class="btn btn-success btn-lg">View Resume</a>
                 </div>
                 <div id="stage-img" class="offset-lg-1 col-lg-5 d-none d-lg-block">
                     <img src="assets/cover_pic.png" alt="That's Carlton">
@@ -54,18 +54,18 @@
             <div class="card-deck">
                 <div class="row">
                     <div class="card">
-                        <img src="" class="card-img-top" alt="...">
+                        <img src="assets/alexa_bot.png" class="card-img-top" alt="alexa bot thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Alexa Powered Robot</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <a href="projects/1.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <small class="text-muted">March 2018</small>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="" class="card-img-top" alt="...">
+                        <img src="assets/emotia_card_img.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Emotia - Mental Health Assessment Tool</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -78,25 +78,25 @@
                 </div>
                 <div class="row mt-5">
                     <div class="card">
-                        <img src="" class="card-img-top" alt="...">
+                        <img src="assets/django_card_2.jpg" class="card-img-top" alt="Django blog thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Blog Website - Django Framework</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <a href="projects/3.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <small class="text-muted">April 2018 to May 2018</small>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="" class="card-img-top" alt="...">
+                        <img src="assets/led_cube_card.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">8&times;8&times;8 LED Cube</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <a href="projects/4.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
-                            <small class="text-muted">Last updated 3 mins ago</small>
+                            <small class="text-muted">August 2018</small>
                         </div>
                     </div>
                 </div>
@@ -107,70 +107,57 @@
     <section id="interests">
         <div class="container">
             <h3 class="display-3 text-center">Interests</h3>
+            <p class="lead text-center">Something that is not on my resume</p>
             <hr>
             <div class="card-columns">
                 <div class="card">
-                    <img src="assets/working.jpg" class="card-img-top" alt="...">
+                    <img src="assets/pewdiepie.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title that wraps to a new line</h5>
-                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5 class="card-title">PewDiePie</h5>
+                        <p class="card-text">My favourite entertainment channel on YouTube</p>
+                        <p class="card-text"><small class="text-muted">Well this channel was the one that got me hooked on to YouTube</small></p>
                     </div>
-                </div>
-                <div class="card p-3">
-                    <blockquote class="blockquote mb-0 card-body">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.
-                        </p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
                 </div>
                 <div class="card">
-                    <img src="assets/banjo.jpg" class="card-img-top" alt="...">
+                    <img src="assets/sentdex.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Sentdex</h5>
+                        <p class="card-text">My favourite programming channel on YouTube</p>
+                        <p class="card-text"><small class="text-muted">His programming tutorials feel like you are coding with a friend on a video call</small></p>
                     </div>
                 </div>
-                <div class="card bg-primary text-white text-center p-3">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                        <footer class="blockquote-footer text-white">
-                            <small>
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
+                <div class="card bg-dark ">
+                    <img src="assets/python_back.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title mt-2 pt-3">Favourite Programming language: Python</h5>
+                        <ul class="text-white ml-n3 mt-2">
+                            <p class="card-text">Reasons:</p>
+                            <li>Multipurpose</li>
+                            <li>Easy to visualize logic</li>
+                            <li>Huge collection of libraries</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card bg-dark text-white">
+                    <img src="assets/elon_musk.jpg" class="card-img" alt="...">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title mt-5 pt-4">Elon Musk</h5>
+                        <p class="card-text">The best engineer around</p>
+                        <p class="card-text">The man who has inspired me to become a better problem solver</p>
+                    </div>
                 </div>
                 <div class="card text-center">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">Migrating to Mars</h5>
+                        <p class="card-text">I believe firmly that humans need to be a multiplanetary species</p>
+                        <p class="card-text"><small class="text-muted">I would love to contribute my skills in that direction</small></p>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="assets/concert.jpg" class="card-img-top" alt="...">
-                </div>
-                <div class="card p-3 text-right">
-                    <blockquote class="blockquote mb-0">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer class="blockquote-footer">
-                            <small class="text-muted">
-                                Someone famous in <cite title="Source Title">Source Title</cite>
-                            </small>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class="card">
+                <div class="card text-center">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        <h5 class="card-title">The mezmerizing universe</h5>
+                        <p class="card-text">I love reading and watching videos on different theories of the universe</p>
+                        <p class="card-text"><small class="text-muted">Especially the ones on <b>black holes</b></small></p>
                     </div>
                 </div>
             </div>
@@ -200,7 +187,7 @@
                 <div class="col-lg-5 offset-lg-1">
                     <img class="img-style" src="assets/about_carl.jpg" alt="">
                     <hr>
-                    <a href="" class="btn btn-lg btn-outline-success" target="_blank">View Resume</a>
+                    <a href="assets/my_resume.pdf" class="btn btn-lg btn-outline-success" target="_blank">View Resume</a>
                     <h5 class="mt-4 mb-3">Connect with me</h5>
                     <a href="" class="fa fa-facebook"></a>
                     <a href="" class="fa fa-linkedin"></a>

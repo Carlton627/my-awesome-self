@@ -6,7 +6,7 @@
 
 <body>
     <nav class="navbar navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="../index.php">Navbar</a>
+        <a class="navbar-brand" href="../index.php">Carlton</a>
         <h3 class="display-5 text-white mr-4">Projects</h3>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#project-nav" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
