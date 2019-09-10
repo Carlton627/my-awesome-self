@@ -11,7 +11,6 @@
     <section id="project-desc">
         <div class="container mt-5">
             <h3>Alexa Powered Robot using the Amazon Echo Dot&trade; and the NodeMCU protoyping board</h3><hr>
-            
             <div class="row mt-5">
                 <div class="col-lg-6">
                     <caption><h5>The Amazon Echo Dot&trade;</h5></caption><br>
@@ -20,7 +19,11 @@
                 <div class="col-lg-5 offset-lg-1">
                     <!-- TODO: fix alignment of abstract on small devices -->
                     <h6>ABSTRACT</h6>
-                    <p>Integrating the Amazon Alexa AI technology to control a robotic system using voice commands</p>
+                    <p>Integrating the Amazon Alexa AI technology to control a robotic system using voice commands.
+                    The Amazon Alexa app lets you add any network enabled device to be controlled by voice. This feature
+                    can be used to control lights, heaters, AC's, etc.<br><br>
+                    Here a <b>Node MCU</b> is used to interface with the Alexa app and the functions of the robot are 
+                    the individual devices. This feature of Alexa is highly scalable.</p>
                 </div>
             </div>
 
@@ -48,7 +51,9 @@
         <div class="container">
             <div class="">
                 <h3>How it helped me?</h3><hr>
-                <p></p>
+                <p>This project was a real test for my resiliency since we worked on this project overnight to meet our deadline 
+                which was the next day. There was less time and more work, so we worked without any major breaks throughout the night. 
+                This project helped me in my battle of overcoming the dislike for electronics. Electronics does seem fun now.</p>
             </div>
         </div>
     </section>
@@ -57,8 +62,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
-                    <h3>Video</h3>
-                    <p>Insert text here</p>
+                    <h3 class="pb-3">The Finished Robot Video</h3>
+                    <p>After finishing up the robot, we did some test runs with it in our college makerspace. Sacrificing sleep was
+                    finally worth it.<br><br>
+                    This project was done for participating in an Alexa Hackathon, we did not win the hackathon but we surely did 
+                    learn a lot of things in the process.</p>
                 </div>
                 <div class="col-lg-5">
                     <iframe src="https://www.youtube.com/embed/L4F0gZIpK3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>

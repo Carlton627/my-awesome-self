@@ -10,8 +10,6 @@
         <section id="project-desc">
             <div class="container mt-5">
                 <h3>8 &times; 8 &times; 8 LED cube using the Arduino UNO prototyping board</h3><hr>
-                <p>The project made to be display during a college event of the Computer Science and Electronics &amp; Communications Engineering department.</p>
-                
                 <div class="row mt-5">
                     <div class="col-lg-6">
                         <img class="img-style" src="" alt="Led cube image">
@@ -19,7 +17,11 @@
                     <div class="col-lg-5 offset-lg-1">
                         <!-- TODO: fix alignment of abstract on small devices -->
                         <h6>ABSTRACT</h6>
-                        <p></p>
+                        <p>With the dawn of a variety of electronics prototyping boards, it became very easy to prototype new ideas. 
+                        The LED cube idea was born due to this craze of prototyping boards. The Arduino UNO, Node MCU, Raspberry PI boards 
+                        allow anyone with the itch to do some engineering turn their ideas into projects in a short amount of time.<br><br>
+                        Leveraging the power of these boards we created an LED cube, that was displayed during the Computer Science Department and Electronics Department branch inauguration. 
+                        </p>
                     </div>
                 </div>
 
@@ -61,10 +63,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7">
-                        <h3>Video</h3>
+                        <h3 class="pb-3">The Cube testing video</h3>
                         <p>After a lot of soldering and solder burns, the arduino was programmed, the circuits were connected
                         and the LED cube came to life. We worked on refining the code on the following day.<br><br>
-                        We had a tight deadline for this project (10 days), making a cube using 512 LEDs. The reason we
+                        We had a tight deadline for this project (10 days), making a cube using 512 LEDs just seemed impossible. The reason we
                         could push through and complete the project was the love for working on projects that was common a 
                         common emotion for the whole team.</p>
                     </div>
