@@ -21,10 +21,7 @@
                     <a class="nav-link" href="../projects/2.php">Emotia: A mental health assessment tool</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../projects/3.php">Django Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="../projects/4.php">8 &times; 8 &times; 8 LED cube</a>
+                    <a class="nav-link" href="../projects/3.php">8 &times; 8 &times; 8 LED cube</a>
                 </li>
             </ul>
         </div>

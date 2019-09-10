@@ -63,7 +63,6 @@
         </section>
 
         <section id="project-showcase">
-            <!-- TODO: Find some sources to show the project if possible -->
             <div class="accordion" id="projectAccordion">
                 <div class="card">
                     <div class="card-header" id="headingOne">
@@ -75,7 +74,7 @@
                             </div>
                             <div class="col-lg-1 offset-lg-3 d-none d-lg-block">
                                 <button id="firstarrow" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> 
-                                    <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true"></span>
+                                    <span class="oi oi-chevron-top" title="read more" aria-hidden="true"></span>
                                 </button>
                             </div>
                         </div>
@@ -85,11 +84,19 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit corrupti, in, totam distinctio dolorem odio, unde asperiores officiis harum vero! Quidem asperiores vel accusantium nemo animi assumenda quis autem consectetur quia, officiis, voluptate ea facilis nesciunt, unde dolores quos! Eius nisi molestiae dolor sequi modi ipsum vel nulla quas?</p>
-                                </div>
-                                <div class="col-lg-5 offset-lg-1">
                                     <img src="../assets/emotia_mcq.png" alt="the mcq test webpage" class="img-style">
                                 </div>
+                                <div class="col-lg-6">
+                                    <p>The PHQ-9 is one module of the larger Patient Health Questionnaire, an assessment that
+                                        patients can complete to screen for mental health conditions. The PHQ-9 screens
+                                        specifically for signs or symptoms of depression, and its nine short and simple questions
+                                        are built on the criteria for depression that were identified in the Diagnostic and Statistical
+                                        Manual of Mental Disorders, 4th edition.<br><br>
+                                        The user can take his/her time in answering the test the more genuine the answers
+                                        the better the diagnosis. The user must answer all the questions compulsorily, failing 
+                                        which the user can not move to the further tests. After successfully submitting the MCQ test, a score 
+                                        is given to the test which is used for processing at the final stage.</p>
+                                </div>     
                             </div>    
                         </div>
                     </div>
@@ -104,7 +111,7 @@
                             </div>
                             <div class="col-lg-1 offset-lg-3 d-none d-lg-block">
                                 <button id="secondarrow" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo"> 
-                                    <span class="oi oi-chevron-top" title="read more" aria-hidden="true"></span>
+                                    <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true"></span>
                                 </button>
                             </div>
                         </div>
@@ -113,11 +120,18 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit corrupti, in, totam distinctio dolorem odio, unde asperiores officiis harum vero! Quidem asperiores vel accusantium nemo animi assumenda quis autem consectetur quia, officiis, voluptate ea facilis nesciunt, unde dolores quos! Eius nisi molestiae dolor sequi modi ipsum vel nulla quas?</p>
+                                    <img src="../assets/emotia_voice.png" alt="the voice test webpage" class="img-style">
                                 </div>
-                                <div class="col-lg-5 offset-lg-1">
-                                    <img src="../assets/emotia_voice.png" alt="the mcq test webpage" class="img-style">
-                                </div>
+                                <div class="col-lg-6">
+                                    <p>The user has about 60 seconds to speak their minds out on why they decided to
+                                    take this test. <b>It is compulsory to have a mic for this test.</b>
+                                    After the 60 seconds are complete, the recording is stopped and the user can proceed to the 
+                                    next test.<br><br>
+                                    On the background the <a href="https://developers.vokaturi.com/getting-started/overview" target="black">Vokaturi API</a> is processing the recording file and gives out five values
+                                    corresponding to five emotions (Neutral, Happy, Sad, Anger, Fear). These values are stored in a data list 
+                                    for final processing.<br><br>
+                                    This test has to be completed to move on to the next one</p>
+                                </div>                             
                             </div>
                         </div>
                     </div>
@@ -132,7 +146,7 @@
                             </div>
                             <div class="col-lg-1 offset-lg-3 d-none d-lg-block">
                                 <button id="thirdarrow" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree"> 
-                                    <span class="oi oi-chevron-top" title="read more" aria-hidden="true"></span>
+                                    <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true"></span>
                                 </button>
                             </div>
                         </div>
@@ -141,11 +155,62 @@
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit impedit corrupti, in, totam distinctio dolorem odio, unde asperiores officiis harum vero! Quidem asperiores vel accusantium nemo animi assumenda quis autem consectetur quia, officiis, voluptate ea facilis nesciunt, unde dolores quos! Eius nisi molestiae dolor sequi modi ipsum vel nulla quas?</p>
+                                    <img src="../assets/emotia_face.png" alt="the face test webpage" class="img-style">
                                 </div>
-                                <div class="col-lg-5 offset-lg-1">
-                                    <img src="../assets/emotia_face.png" alt="the mcq test webpage" class="img-style">
+                                <div class="col-lg-6">
+                                    <p>The user has to play the video that will be displayed on the page by clicking on the
+                                    record button. Once it is clicked a count down starts indicating the user about the time
+                                    left for the completion of the face test. The users facial expressions throughout the video will be captured by the
+                                    webcam. <b>Again it is compulsory to have a webcam for this test.</b> The user can proceed
+                                    to recieve the final diagnosis only after completing this test.<br><br>
+                                    The webcam takes images of the user at a constant frame rate. These images are sent to the face 
+                                    emotion detection model made using a Convolutional Neural Network algorithm. The model gives out
+                                    seven values corresponding to seven emotions (Neutral, Happy, Sad, Fear, Anger, Surprise, Disgust).
+                                    The values are stored for the final processing</p>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <button id="fourthheading" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"> 
+                                    <h2 class="mb-0 text-secondary">The Diagnosis</h2>
+                                </button> 
+                            </div>
+                            <div class="col-lg-1 offset-lg-3 d-none d-lg-block">
+                                <button id="fourtharrow" class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour"> 
+                                    <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true"></span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#projectAccordion">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="../assets/emotia_res.png" alt="the diagnosis webpage" class="img-style">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>All the scores are sent to a Support Vector Machine model for classification 
+                                    among 5 levels of depression
+                                        <ol>
+                                            <li>No depression</li>
+                                            <li>Minimal depression</li>
+                                            <li>Mild depression</li>
+                                            <li>Moderately Severe depression</li>
+                                            <li>Severe depression</li>
+                                        </ol>
+                                    <br>
+                                    The diagnosis page shows which level of depression has been found along with a 
+                                    comment on what to do next based on the level of depression found.
+                                    <br><br>
+                                    The user can get a printable copy of the diagnosis report which has all the test scores (MCQ, Voice, Face) 
+                                    along with the final diagnosis.
+                                    </p>
+                                </div>                              
                             </div>
                         </div>
                     </div>

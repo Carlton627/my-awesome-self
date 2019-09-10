@@ -75,25 +75,13 @@
                             <small class="text-muted">Feb 2019 to May 2019</small>
                         </div>
                     </div>
-                </div>
-                <div class="row mt-5">
-                    <div class="card">
-                        <img src="assets/django_card_2.jpg" class="card-img-top" alt="Django blog thumbnail">
-                        <div class="card-body">
-                            <h5 class="card-title">Blog Website - Django Framework</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="projects/3.php" class="btn btn-lg btn-outline-success">Check out</a>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">April 2018 to May 2018</small>
-                        </div>
-                    </div>
+               
                     <div class="card">
                         <img src="assets/led_cube_card.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">8&times;8&times;8 LED Cube</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="projects/4.php" class="btn btn-lg btn-outline-success">Check out</a>
+                            <a href="projects/3.php" class="btn btn-lg btn-outline-success">Check out</a>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">August 2018</small>
@@ -165,6 +153,7 @@
     </section>
     
     <!-- About Section   -->
+    <script src="js/copytoclip.js" type="text/javascript"></script>
     <section id="about">
         <div class="container">
             <div class="row">
@@ -193,11 +182,21 @@
                     <a href="" class="fa fa-linkedin"></a>
                     <a href="" class="fa fa-twitter"></a>
                     <a href="" class="fa fa-instagram"></a>
+                    <h5 class="mt-3">Or send me an email:</h5>
+                    <div class="input-group">
+                        <input id="myEmail" type="text" class="form-control" value="carlton.anthony.rodrigues@gmail.com" disabled>
+                        <div id="tooltip" class="input-group-append">
+                            <button class="btn btn-success" onclick="copy()" onmouseout="out()" type="button">
+                                <span class="tooltiptext" id="myTooltip">Copy</span>
+                                Copy
+                            </button> 
+                        </div> 
+                    </div> 
                 </div>
             </div>
         </div>
     </section>
-    
+
     <!-- News Section -->
     <section id="news">
         <div class=".container">
@@ -264,7 +263,5 @@
     
     <!-- Footer Section  -->
     <?php include 'includes/footer.php' ?>
-
-    <script src="js/news.js" type="text/javascript"></script>
 </body>
 </html>

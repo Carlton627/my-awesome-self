@@ -5,8 +5,9 @@
                     <ul class="list-unstyled">
                             <li><a href="../projects/1.php">Alexa Powered Robot</a></li>
                             <li><a href="../projects/2.php">Emotia</a></li>
-                            <li><a href="../projects/3.php">Django Blog</a></li>
-                            <li><a href="../projects/4.php">8 &times; 8 &times; 8 LED cube</a></li>
+                            <li><a href="../projects/3.php">8 &times; 8 &times; 8 LED cube</a></li>
+                            <li><a href="../assets/my_resume.pdf" target="_blank">Resume</a></li>
+                            <li><a href="../index.php#projects">Back to home</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-5 ml-auto">

@@ -11,17 +11,16 @@
     <section id="project-desc">
         <div class="container mt-5">
             <h3>Alexa Powered Robot using the Amazon Echo Dot&trade; and the NodeMCU protoyping board</h3><hr>
-            <p></p>
             
             <div class="row mt-5">
                 <div class="col-lg-6">
                     <caption><h5>The Amazon Echo Dot&trade;</h5></caption><br>
-                    <img class="img-style" src="../assets/alexa_img.png" alt="computer">
+                    <img class="img-style" src="../assets/alexa_img.png" alt="The amazon echo dot">
                 </div>
                 <div class="col-lg-5 offset-lg-1">
                     <!-- TODO: fix alignment of abstract on small devices -->
                     <h6>ABSTRACT</h6>
-                    <p></p>
+                    <p>Integrating the Amazon Alexa AI technology to control a robotic system using voice commands</p>
                 </div>
             </div>
 
@@ -55,7 +54,6 @@
     </section>
 
     <section id="project-showcase">
-        <!-- TODO: Find some sources to show the project if possible -->
         <div class="container">
             <div class="row">
                 <div class="col-lg-7">
