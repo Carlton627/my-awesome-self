@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2px;
 }
 
-.fa {
+.fab {
     padding: 20px;
     font-size: 30px;
     width: 70px;
@@ -68,31 +68,27 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none;
     border-radius: 50%;
     margin-right: 0.5rem;
+    color: gray;
 }
 
-.fa:hover {
-    text-decoration: none;
-    color: white;
+.fa-facebook-f:hover {
+    background: #3b5998;
+    color: white; 
 }
 
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-  
-.fa-twitter {
-    background: #55ACEE;
+.fa-linkedin-in:hover {
+    background: #0e76a8;
     color: white;
 }
 
-.fa-linkedin {
-    background: #0077B5;
+.fa-twitter:hover {
     color: white;
+    background: #00acee;
 }
 
-.fa-instagram {
-    background: url('../assets/insta-background.png') center no-repeat;
+.fa-github-alt:hover {
     color: white;
+    background: #211f1f;
 }
 
 #news {

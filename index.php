@@ -99,7 +99,7 @@
             <hr>
             <div class="card-columns">
                 <div class="card">
-                    <img src="assets/pewdiepie.png" class="card-img-top" alt="...">
+                    <img src="assets/pewdiepie.png" class="card-img-top" alt="PewDiePie">
                     <div class="card-body">
                         <h5 class="card-title">PewDiePie</h5>
                         <p class="card-text">My favourite entertainment channel on YouTube</p>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <img src="assets/sentdex.png" class="card-img-top" alt="...">
+                    <img src="assets/sentdex.png" class="card-img-top" alt="Sentdex">
                     <div class="card-body">
                         <h5 class="card-title">Sentdex</h5>
                         <p class="card-text">My favourite programming channel on YouTube</p>
@@ -115,10 +115,10 @@
                     </div>
                 </div>
                 <div class="card bg-dark ">
-                    <img src="assets/python_back.jpg" class="card-img" alt="...">
+                    <img src="assets/python_back.jpg" class="card-img" alt="Python">
                     <div class="card-img-overlay">
                         <h5 class="card-title mt-2 pt-3">Favourite Programming language: Python</h5>
-                        <ul class="text-white ml-n3 mt-2">
+                        <ul class="text-white ml-n3 mt-4">
                             <p class="card-text">Reasons:</p>
                             <li>Multipurpose</li>
                             <li>Easy to visualize logic</li>
@@ -127,7 +127,7 @@
                     </div>
                 </div>
                 <div class="card bg-dark text-white">
-                    <img src="assets/elon_musk.jpg" class="card-img" alt="...">
+                    <img src="assets/elon_musk.jpg" class="card-img" alt="Elon Musk">
                     <div class="card-img-overlay">
                         <h5 class="card-title mt-5 pt-4">Elon Musk</h5>
                         <p class="card-text">The best engineer around</p>
@@ -148,6 +148,7 @@
                         <p class="card-text"><small class="text-muted">Especially the ones on <b>black holes</b></small></p>
                     </div>
                 </div>
+                
             </div>
         </div>
     </section>
@@ -160,28 +161,41 @@
                 <div class="col-lg-6">
                     <h6>This guy</h6>
                     <h2>Who am I?</h2>
-                    <p class="lead">Quid fidelissimae singulis noster litteris, consequat fugiat o voluptate 
-                        coniunctione si eu si nisi duis multos, ut esse ipsum esse ingeniis, arbitror 
-                        sed sint incurreret, iis illum singulis transferrem, eu si multos amet quem ita 
-                        appellat summis fore probant illum. Sed aliqua voluptate de eiusmod ita minim 
-                        possumus, lorem admodum aut arbitror, fabulas enim iis incurreret voluptatibus, 
-                        est cernantur se nescius a possumus labore excepteur o te culpa se aute et 
-                        laboris in dolore. Voluptate illustriora ut tempor de quem arbitror relinqueret, 
-                        nescius se nisi ad nostrud quae multos nam elit, eu quae aliqua a incididunt, ab 
-                        ad despicationes, offendit an irure incurreret, nam culpa expetendis. A o quae 
-                        nescius, expetendis de velit laborum ex quae ad ubi minim laboris, fabulas sint 
-                        de quamquam fidelissimae. Te irure ipsum de pariatur. An excepteur domesticarum. 
-                        Ipsum despicationes cupidatat quorum appellat.</p>
+                    <p>Hi, I am Carlton Rodrigues a Computer Science Engineer. I obtained my bachelor's degree 
+                        in Computer Science in St. Joseph Engineering College which is affiliated by the Visveswaraya 
+                        Technological University.<br><br>
+                        I still remember when my parents brought home a computer system I was fascinated by it. 
+                        I remember being glued to the computer for hours altogether. I loved playing video games 
+                        and browsing the internet. I always wondered how was a computer even possible and this started 
+                        my craze to know more about Computers and what keeps it running. Hence, my journey with 
+                        computers had begun.<br><br>
+                        Now that I have a Degree in Computer Science, I want to use my skills and knowledge towards 
+                        the good of human life and the earth. Sustainable development is the way to go, I believe that 
+                        with enough research in this direction we can find out a way to get things done fast but in a 
+                        sustainable way.<br><br>
+                        I love the art of problem-solving and work every day to improve on this skill. Problem-solving 
+                        requires you to think from a different perspective in other words "thinking out of the box". 
+                        I believe that I can come up with unique solutions to existing and new problems. 
+                        This belief system helps me to improve my self incrementally every day.
+                    </p>
                 </div>
                 <div class="col-lg-5 offset-lg-1">
                     <img class="img-style" src="assets/about_carl.jpg" alt="">
                     <hr>
                     <a href="assets/my_resume.pdf" class="btn btn-lg btn-outline-success" target="_blank">View Resume</a>
-                    <h5 class="mt-4 mb-3">Connect with me</h5>
-                    <a href="" class="fa fa-facebook"></a>
-                    <a href="" class="fa fa-linkedin"></a>
-                    <a href="" class="fa fa-twitter"></a>
-                    <a href="" class="fa fa-instagram"></a>
+                    <h5 class="mt-4 mb-2">Connect with me</h5>
+                    <a href="https://www.facebook.com/carlos.rodrigues.967422" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/carlton-rodrigues" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://twitter.com/CarltonRodz?s=09" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://github.com/Carlton627" target="_blank">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
                     <h5 class="mt-3">Or send me an email:</h5>
                     <div class="input-group">
                         <input id="myEmail" type="text" class="form-control" value="carlton.anthony.rodrigues@gmail.com" disabled>
