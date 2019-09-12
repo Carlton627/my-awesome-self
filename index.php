@@ -1,6 +1,7 @@
 <?php 
     include 'includes/header.html';
 ?>
+    <title>Carlton Rodrigues</title>
 </head>
 <body>
     <!-- Navigation Bar   -->
@@ -106,13 +107,40 @@
                         <p class="card-text"><small class="text-muted">Well this channel was the one that got me hooked on to YouTube</small></p>
                     </div>
                 </div>
+                <div class="card bg-dark text-white">
+                    <img src="assets/guitar_interest.jpg" class="card-img" alt="Guitar">
+                    <div class="card-img-overlay">
+                        <h5 class="card-title mt-5">Guitar</h5>
+                        <p class="card-text">My favourite hobby</p>
+                        <p class="card-text">I have played guitar for choirs and bands</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/david_gilmour.jpg" class="card-img-top" alt="David Gilmour">
+                    <div class="card-body">
+                        <h5 class="card-title">David Gimour</h5>
+                        <p class="card-text">My favourite guitarist</p>
+                        <p class="card-text"><small class="text-muted">His guitar riffs are a goosebumps generator</small></p>
+                    </div>
+                </div>
                 <div class="card">
                     <img src="assets/sentdex.png" class="card-img-top" alt="Sentdex">
                     <div class="card-body">
                         <h5 class="card-title">Sentdex</h5>
-                        <p class="card-text">My favourite programming channel on YouTube</p>
+                        <p class="card-text">My favourite programming channel on YouTube. Would recommend watching his Python tutorials.</p>
                         <p class="card-text"><small class="text-muted">His programming tutorials feel like you are coding with a friend on a video call</small></p>
                     </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">More Recommendations</h5>
+                        <p class="card-text">Some more YouTube Channels for programming</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">thenewboston</li>
+                        <li class="list-group-item">Derek Banas</li>
+                        <li class="list-group-item">Hitesh Choudhary</li>
+                    </ul>
                 </div>
                 <div class="card bg-dark ">
                     <img src="assets/python_back.jpg" class="card-img" alt="Python">
@@ -134,6 +162,18 @@
                         <p class="card-text">The man who has inspired me to become a better problem solver</p>
                     </div>
                 </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Books on people</h5>
+                        <p class="card-text">Collection of books I have read on amazing people.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+                            Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future <small> - Ashlee Vance</small>
+                        </li>
+                        <li class="list-group-item">Wings of fire <small>- A.P.J. Abdul Kalam</small></li>
+                    </ul>
+                </div>
                 <div class="card text-center">
                     <div class="card-body">
                         <h5 class="card-title">Migrating to Mars</h5>
@@ -148,7 +188,16 @@
                         <p class="card-text"><small class="text-muted">Especially the ones on <b>black holes</b></small></p>
                     </div>
                 </div>
-                
+                <div class="card">
+                    <div class="card-header">
+                        <h5>Space News</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">Check out what's new in the world of space exploration today</p>
+                        <a href="#news" class="btn btn-primary">I want to see</a>
+                        <p class="card-text"><small class="text-muted">Will be making more improvements to it</small></p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -226,35 +275,35 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img id="news-thumbnail-0" src="" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5><a id="news-link-0" href="" target="_blank"></a></h5>
                             <p id="news-src-0"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img id="news-thumbnail-1" src="" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5><a id="news-link-1" href="" target="_blank"></a></h5>
                             <p id="news-src-1"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img id="news-thumbnail-2" src="" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5><a id="news-link-2" href="" target="_blank"></a></h5>
                             <p id="news-src-2"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img id="news-thumbnail-3" src="" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5><a id="news-link-3" href="" target="_blank"></a></h5>
                             <p id="news-src-3"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img id="news-thumbnail-4" src="" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <div class="carousel-caption">
                             <h5><a id="news-link-4" href="" target="_blank"></a></h5>
                             <p id="news-src-4"></p>
                         </div>
