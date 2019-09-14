@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <ul class="list-unstyled">
-                        <li><a href="#stage">Home</a></li>
+                        <li><a href="#stage">Back to Top</a></li>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="#interests">Interests</a></li>  
                         <li><a href="#about">About</a></li>

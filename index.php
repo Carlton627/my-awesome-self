@@ -12,17 +12,20 @@
         </button>
         <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Home</a>
-                </li>
-                <li class="nav-item"> 
+                <li class="nav-item pr-2"> 
                     <a class="nav-link" href="#projects">Projects</a>
                 </li> 
-                <li class="nav-item">
+                <li class="nav-item pr-2">
                     <a class="nav-link" href="#interests">Interests</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item pr-2">
                     <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item pr-2">
+                    <a class="nav-link" href="#news">Space News</a>
+                </li>
+                <li class="nav-item pr-2">
+                    <a class="nav-link" href="#main-footer">Feedback</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="assets/my_resume.pdf" target="_blank">Resume</a>
@@ -45,9 +48,12 @@
                     <img src="assets/cover_pic.png" alt="That's Carlton">
                 </div>
             </div>
+            <div class="fixed-button">
+                <p><a href="#main-footer">Feedback</a></p>
+            </div>
         </div>
     </section>
-    
+
     <section id="projects">
         <div class="container">
             <h3 class="display-3 text-center">Projects</h3>
@@ -58,22 +64,22 @@
                         <img src="assets/alexa_bot.png" height="350px" class="card-img-top" alt="alexa bot thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Alexa Powered Robot</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="projects/1.php" class="btn btn-lg btn-outline-success">Check out</a>
+                            <p class="card-text">A robot that listens to you</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">March 2018</small>
+                            <a href="projects/1.php">Check out</a>
                         </div>
                     </div>
                     <div class="card">
                         <img src="assets/emotia_card_img.jpg" height="350px" class="card-img-top" alt="Emotia Thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Emotia - Mental Health Assessment Tool</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="projects/2.php" class="btn btn-lg btn-outline-success">Check out</a>
+                            <p class="card-text">Developing a virtual psychiatrist using Machine Learning</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Feb 2019 to May 2019</small>
+                            <a href="projects/2.php">Check out</a>
                         </div>
                     </div>
                
@@ -81,11 +87,11 @@
                         <img src="assets/led_cube_card.jpg" height="350px" class="card-img-top" alt="LED cube thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">8&times;8&times;8 LED Cube</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            <a href="projects/3.php" class="btn btn-lg btn-outline-success">Check out</a>
+                            <p class="card-text">Turning 512 LED's into a 3D display</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">August 2018</small>
+                            <a href="projects/3.php">Check out</a>
                         </div>
                     </div>
                 </div>
@@ -253,7 +259,11 @@
                     <div class="card-body">
                         <p class="card-text">Check out what's new in the world of space exploration today</p>
                         <a href="#news" class="btn btn-primary">I want to see</a>
-                        <p class="card-text"><small class="text-muted">Will be making more improvements to it</small></p>
+                    </div>
+                    <div class="card-footer">
+                        <p class="card-text">
+                            <small class="text-muted">Will be making more improvements to it</small>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,8 @@
                 <h3>8 &times; 8 &times; 8 LED cube using the Arduino UNO prototyping board</h3><hr>
                 <div class="row mt-5">
                     <div class="col-lg-6">
-                        <img class="img-style" src="" alt="Led cube image">
+                        <caption><h5>The Arduino UNO</h5></caption>
+                        <img class="img-style" src="../assets/arduino.jpg" alt="Led cube image">
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <!-- TODO: fix alignment of abstract on small devices -->
@@ -79,28 +80,7 @@
             
         </section>
 
-        <section id="team-members">
-            <div class="container mt-5 mb-5">
-                <h3>The Team</h3><hr>
-                <div class="card-deck">
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Santan Edwin Fernandes</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="card">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Carlton Rodrigues</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <!-- Team members section -->
 
         <!-- Footer Section  -->
         <?php include '../includes/project_footer.php' ?>

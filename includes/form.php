@@ -1,6 +1,7 @@
 <form method="POST" action="">
 <div class="form-group">
         <label for="feedback"><h3>Feedback</h3></label>
+            <p class="mt-n3"><small class="text-muted">Any suggestions to improve this website? Please drop them here.</small></p>
             <textarea name="content" class="form-control" id="feedback" rows="3" placeholder="Type message here" required></textarea>
             <?php 
                 if(isset($_POST['content'])) {

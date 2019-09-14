@@ -2,6 +2,7 @@ html,
 body {
     height: 100%;
     width: auto;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -16,6 +17,35 @@ img {
 
 .img-style {
     box-shadow: 0 4px 2px -2px #262f20;
+}
+
+.fixed-button {
+    position: fixed;
+    z-index: 1;
+    background: rgba(0,255,0,0.7);
+    width: 15%;
+    height: 40px;
+    line-height: 40px;
+    bottom: 5%;
+    right: 2%;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+
+.fixed-button p a {
+    color: white;
+    font-weight: bold;
+}
+
+.fixed-button p a:hover {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.fixed-button:active {
+    box-shadow: 0 0 ;
 }
 
 #stage {
@@ -48,6 +78,10 @@ img {
 
 #projects img {
     width: inherit;
+}
+
+#projects .card-footer a {
+    float: right;
 }
 
 #interests {
