@@ -28,10 +28,14 @@ img {
     line-height: 40px;
     bottom: 5%;
     right: 2%;
-    border-radius: 3px;
+    border-radius: 30px;
     text-align: center;
     box-shadow: 4px 4px 4px grey;
     cursor: pointer;
+}
+
+.fixed-button span {
+    color: white;
 }
 
 .fixed-button p a {
@@ -41,7 +45,6 @@ img {
 
 .fixed-button p a:hover {
     text-decoration: none;
-    font-size: 20px;
 }
 
 .fixed-button:active {

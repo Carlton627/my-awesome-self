@@ -48,10 +48,17 @@
                     <img src="assets/cover_pic.png" alt="That's Carlton">
                 </div>
             </div>
-            <div class="fixed-button">
-                <p><a href="#main-footer">Feedback</a></p>
+
+            <!-- Fixed Feedback Button -->
+            <div class="fixed-button"> 
+                <p>
+                    <span class="oi oi-chevron-bottom" title="Go to Feedback" aria-hidden="true" hidden></span>
+                    <a id="textToggle" href="#main-footer">Feedback</a>
+                    <span class="oi oi-chevron-bottom" title="Go to Feedback" aria-hidden="true" hidden></span>
+                </p>
             </div>
         </div>
+        <script src="js/fixedbutton.js" type="text/javascript"></script>
     </section>
 
     <section id="projects">
