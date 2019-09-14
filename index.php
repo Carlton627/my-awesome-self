@@ -55,7 +55,7 @@
             <div class="card-deck">
                 <div class="row">
                     <div class="card">
-                        <img src="assets/alexa_bot.png" class="card-img-top" alt="alexa bot thumbnail">
+                        <img src="assets/alexa_bot.png" height="350px" class="card-img-top" alt="alexa bot thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Alexa Powered Robot</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                     <div class="card">
-                        <img src="assets/emotia_card_img.jpg" class="card-img-top" alt="...">
+                        <img src="assets/emotia_card_img.jpg" height="350px" class="card-img-top" alt="Emotia Thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Emotia - Mental Health Assessment Tool</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -78,7 +78,7 @@
                     </div>
                
                     <div class="card">
-                        <img src="assets/led_cube_card.jpg" class="card-img-top" alt="...">
+                        <img src="assets/led_cube_card.jpg" height="350px" class="card-img-top" alt="LED cube thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">8&times;8&times;8 LED Cube</h5>
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -88,6 +88,64 @@
                             <small class="text-muted">August 2018</small>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            
+            <div class="card mb-3 mt-5 mr-n3 ml-n3">
+                <div class="card-header text-center">
+                    <h5>Mini Projects</h5>   
+                </div>
+                <div class="bd-example">
+                    <div id="projectCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#projectCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#projectCarousel" data-slide-to="1"></li>
+                            <li data-target="#projectCarousel" data-slide-to="2"></li>
+                            <li data-target="#projectCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/django_card_2.jpg" height="600px" class="d-block img-fluid w-100" alt="Django Blog">
+                                <div class="carousel-caption">
+                                    <h5>Blog Website</h5>
+                                    <p>Using Python 3 and Django Framework</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/freeglut.jpg" height="600px" class="d-block img-fluid w-100" alt="freeglut">
+                                <div class="carousel-caption">
+                                    <h5>Computer Graphics Project</h5>
+                                    <p>Using Freeglut and C++ to create an animated scene</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/startup_img.png" height="600px" class="d-block img-fluid w-100" alt="start up website">
+                                <div class="carousel-caption">
+                                    <h5>Start-up Landing Page</h5>
+                                    <p>Web programming mini project built on Wampserver</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/oracle11g.jpg" height="600px" class="d-block img-fluid w-100" alt="Database Web Application">
+                                <div class="carousel-caption">
+                                    <h5>Content Management System</h5>
+                                    <p>Using JSP and Oracle 11g</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#projectCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <p class="card-text"></p>
                 </div>
             </div>
         </div>
@@ -274,35 +332,35 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img id="news-thumbnail-0" src="" class="d-block w-100" alt="...">
+                        <img id="news-thumbnail-0" src="" class="d-block img-fluid w-100" height="750px" alt="space news image">
                         <div class="carousel-caption">
                             <h5><a id="news-link-0" href="" target="_blank"></a></h5>
                             <p id="news-src-0"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img id="news-thumbnail-1" src="" class="d-block w-100" alt="...">
+                        <img id="news-thumbnail-1" src="" class="d-block img-fluid w-100" height="750px" alt="space news image">
                         <div class="carousel-caption">
                             <h5><a id="news-link-1" href="" target="_blank"></a></h5>
                             <p id="news-src-1"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img id="news-thumbnail-2" src="" class="d-block w-100" alt="...">
+                        <img id="news-thumbnail-2" src="" class="d-block img-fluid w-100" height="750px" alt="space news image">
                         <div class="carousel-caption">
                             <h5><a id="news-link-2" href="" target="_blank"></a></h5>
                             <p id="news-src-2"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img id="news-thumbnail-3" src="" class="d-block w-100" alt="...">
+                        <img id="news-thumbnail-3" src="" class="d-block img-fluid w-100" height="750px" alt="space news image">
                         <div class="carousel-caption">
                             <h5><a id="news-link-3" href="" target="_blank"></a></h5>
                             <p id="news-src-3"></p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img id="news-thumbnail-4" src="" class="d-block w-100" alt="...">
+                        <img id="news-thumbnail-4" src="" class="d-block img-fluid w-100" height="750px" alt="space news image">
                         <div class="carousel-caption">
                             <h5><a id="news-link-4" href="" target="_blank"></a></h5>
                             <p id="news-src-4"></p>
