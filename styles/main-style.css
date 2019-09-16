@@ -19,12 +19,64 @@ img {
     box-shadow: 0 4px 2px -2px #262f20;
 }
 
-/* Fixed button css starts */
+/* back to top starts */
 
-.fixed-button {
+.toTop-fixed-button {
     position: fixed;
     z-index: 1;
-    background: rgba(0,255,0,0.5);
+    background: rgba(255, 68, 68, 0.6);
+    width: 10%;
+    height: 40px;
+    line-height: 40px;
+    bottom: 10%;
+    right: 2%;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+    display: none;
+}
+
+.toTop-fixed-button:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.toTop-fixed-button:active {
+    box-shadow: 0 0 ;
+}
+
+.toTop-fixed-button {
+    color: white;
+    letter-spacing: .2rem;
+}
+
+
+@media(max-width: 973px) {
+    .toTop-fixed-button {
+        width: 5%;
+        height: 50px;
+    }
+    #toptextToggle { display: none; }
+}
+
+@media(max-width: 571px) {
+    .toTop-fixed-button {
+        width: 8%;
+        height: 50px;
+    }
+    #toptextToggle { display: none; }
+}
+
+
+/* back to top ends */
+
+/* feedback Fixed button css */
+
+.feedback-fixed-button {
+    position: fixed;
+    z-index: 1;
+    background: rgba(40, 167, 69, 0.6);
     width: 15%;
     height: 40px;
     line-height: 40px;
@@ -36,20 +88,20 @@ img {
     cursor: pointer;
 }
 
-.fixed-button:hover {
+.feedback-fixed-button:hover {
     text-decoration: none;
     color: white;
 }
 
-.fixed-button:active {
+.feedback-fixed-button:active {
     box-shadow: 0 0 ;
 }
 
-.fixed-button span {
+.feedback-fixed-button span {
     color: white;
 }
 
-.fixed-button {
+.feedback-fixed-button {
     color: white;
     letter-spacing: .2rem;
 }

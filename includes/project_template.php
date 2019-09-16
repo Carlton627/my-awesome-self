@@ -26,9 +26,14 @@
             </ul>
         </div>
     </nav>
+    <a class="feedback-fixed-button" href="#main-footer">
+        <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>
+        <b id="textTogglefeed">Feedback</b>
+        <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>      
+    </a>
 
     
-    
+    <script src="../js/feed_fixedbutton.js" type="text/javascript"></script>
 
     
         

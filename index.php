@@ -48,14 +48,20 @@
                     <img src="assets/cover_pic.png" alt="That's Carlton">
                 </div>
             </div>
+            <!-- Back to top -->
+            <a class="toTop-fixed-button" href="#stage">
+                <b id="toptextToggle">Back to top</b>
+                <i class="fas fa-angle-double-up" hidden></i> 
+            </a>
             <!-- Fixed Feedback Button -->
-            <a class="fixed-button d-none d-lg-block" href="#main-footer">
+            <a class="feedback-fixed-button d-none d-lg-block" href="#main-footer">
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>
-                <b id="textToggle">Feedback</b>
+                <b id="textTogglefeed">Feedback</b>
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>      
             </a>
         </div>
-        <script src="js/fixedbutton.js" type="text/javascript"></script>
+        <script src="js/feed_fixedbutton.js" type="text/javascript"></script>
+        <script src="js/backtotop.js" type="text/javascript"></script>
     </section>
 
     <section id="projects">
@@ -214,7 +220,7 @@
                     <img src="assets/python_back.jpg" class="card-img" alt="Python">
                     <div class="card-img-overlay">
                         <h5 class="card-title mt-2 pt-3">Favourite Programming language: Python</h5>
-                        <ul class="text-white ml-n3 mt-4">
+                        <ul class="text-white ml-n3 mt-3">
                             <p class="card-text">Reasons:</p>
                             <li>Multipurpose</li>
                             <li>Easy to visualize logic</li>
@@ -225,7 +231,7 @@
                 <div class="card bg-dark text-white">
                     <img src="assets/elon_musk.jpg" class="card-img" alt="Elon Musk">
                     <div class="card-img-overlay">
-                        <h5 class="card-title mt-5 pt-4">Elon Musk</h5>
+                        <h5 class="card-title">Elon Musk</h5>
                         <p class="card-text">The best engineer around</p>
                         <p class="card-text">The man who has inspired me to become a better problem solver</p>
                     </div>

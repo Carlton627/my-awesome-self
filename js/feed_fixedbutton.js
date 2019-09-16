@@ -1,5 +1,5 @@
-button = document.querySelector(".fixed-button")
-button_text = document.querySelector("#textToggle")
+button = document.querySelector(".feedback-fixed-button")
+button_text = document.querySelector("#textTogglefeed")
 first_arrow = button.firstElementChild
 second_arrow = button.lastElementChild
 
