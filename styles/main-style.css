@@ -19,7 +19,7 @@ img {
     box-shadow: 0 4px 2px -2px #262f20;
 }
 
-/* Fixed button css */
+/* Fixed button css starts */
 
 .fixed-button {
     position: fixed;
@@ -85,7 +85,7 @@ img {
 }
 
 #projects img {
-    width: inherit;
+    width: 100%;
 }
 
 #projects .card-footer a {

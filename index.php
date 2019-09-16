@@ -49,7 +49,7 @@
                 </div>
             </div>
             <!-- Fixed Feedback Button -->
-            <a class="fixed-button" href="#main-footer">
+            <a class="fixed-button d-none d-lg-block" href="#main-footer">
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>
                 <b id="textToggle">Feedback</b>
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>      
