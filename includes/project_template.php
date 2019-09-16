@@ -26,13 +26,18 @@
             </ul>
         </div>
     </nav>
+
+    <a class="toTop-fixed-button" href="#project-stage">
+        <b id="toptextToggle">Back to top</b>
+        <i class="fas fa-angle-double-up" hidden></i> 
+    </a>
     <a class="feedback-fixed-button" href="#main-footer">
         <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>
         <b id="textTogglefeed">Feedback</b>
         <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>      
     </a>
 
-    
+    <script src="../js/backtotop.js" type="text/javascript"></script>
     <script src="../js/feed_fixedbutton.js" type="text/javascript"></script>
 
     
