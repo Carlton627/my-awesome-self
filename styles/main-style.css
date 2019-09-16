@@ -19,10 +19,12 @@ img {
     box-shadow: 0 4px 2px -2px #262f20;
 }
 
+/* Fixed button css */
+
 .fixed-button {
     position: fixed;
     z-index: 1;
-    background: rgba(0,255,0,0.7);
+    background: rgba(0,255,0,0.5);
     width: 15%;
     height: 40px;
     line-height: 40px;
@@ -34,22 +36,25 @@ img {
     cursor: pointer;
 }
 
-.fixed-button span {
-    color: white;
-}
-
-.fixed-button p a {
-    color: white;
-    font-weight: bold;
-}
-
-.fixed-button p a:hover {
+.fixed-button:hover {
     text-decoration: none;
+    color: white;
 }
 
 .fixed-button:active {
     box-shadow: 0 0 ;
 }
+
+.fixed-button span {
+    color: white;
+}
+
+.fixed-button {
+    color: white;
+    letter-spacing: .2rem;
+}
+
+/* Fixed button css ends */
 
 #stage {
     background: rgba(21, 21, 65, 0.295);

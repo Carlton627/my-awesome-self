@@ -48,15 +48,12 @@
                     <img src="assets/cover_pic.png" alt="That's Carlton">
                 </div>
             </div>
-
             <!-- Fixed Feedback Button -->
-            <div class="fixed-button"> 
-                <p>
-                    <span class="oi oi-chevron-bottom" title="Go to Feedback" aria-hidden="true" hidden></span>
-                    <a id="textToggle" href="#main-footer">Feedback</a>
-                    <span class="oi oi-chevron-bottom" title="Go to Feedback" aria-hidden="true" hidden></span>
-                </p>
-            </div>
+            <a class="fixed-button" href="#main-footer">
+                <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>
+                <b id="textToggle">Feedback</b>
+                <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>      
+            </a>
         </div>
         <script src="js/fixedbutton.js" type="text/javascript"></script>
     </section>
