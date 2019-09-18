@@ -1,6 +1,7 @@
 <?php 
     include 'header.html'; 
 ?>
+    <title>Projects | Carlton Rodrigues</title>
     <link rel="stylesheet" href="../styles/secondary-style.css">
 </head>
 
