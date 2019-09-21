@@ -6,29 +6,29 @@
 <body>
     <!-- Navigation Bar   -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
-        <a class="navbar-brand" href="">Carlton</a>
+        <a class="navbar-brand animated fadeInLeftBig" href="">Carlton</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbar-main">
             <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item pr-2"> 
-                    <a class="nav-link" href="#projects">Projects</a>
+                <li class="nav-item pr-3"> 
+                    <a class="nav-link animated fadeInRightBig" href="#projects">Projects</a>
                 </li> 
-                <li class="nav-item pr-2">
-                    <a class="nav-link" href="#interests">Interests</a>
+                <li class="nav-item pr-3">
+                    <a class="nav-link animated fadeInRightBig" href="#interests">Interests</a>
                 </li>
-                <li class="nav-item pr-2">
-                    <a class="nav-link" href="#about">About</a>
+                <li class="nav-item pr-3">
+                    <a class="nav-link animated fadeInRightBig" href="#about">About</a>
                 </li>
-                <li class="nav-item pr-2">
-                    <a class="nav-link" href="#news">Space News</a>
+                <li class="nav-item pr-3">
+                    <a class="nav-link animated fadeInRightBig" href="#news">Space News</a>
                 </li>
-                <li class="nav-item pr-2">
-                    <a class="nav-link" href="#main-footer">Feedback</a>
+                <li class="nav-item pr-3">
+                    <a class="nav-link animated fadeInRightBig" href="#main-footer">Feedback</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="assets/my_resume.pdf" target="_blank">Resume</a>
+                    <a class="nav-link animated fadeInRightBig" href="assets/my_resume.pdf" target="_blank">Resume</a>
                 </li>
             </ul>
         </div>
@@ -39,22 +39,22 @@
         <div class="container">
             <div class="row">
                 <div id="stage-caption" class="col-lg-6">
-                    <h1 class="display-3 mb-4">Some crazy guy, doing far more crazy things</h1> 
-                    <p class="mb-4">Hi, I am Carlton Rodrigues<br>A bachelor of engineering in Computer Science<br>Currently based out of Mumbai city</p>
-                    <a href="#about" class="btn btn-success btn-lg">About me</a>
-                    <a href="assets/my_resume.pdf" target="_blank" class="btn btn-success btn-lg">View Resume</a>
+                    <h1 class="display-3 mb-4 animated bounceInLeft delay-1s">Some crazy guy, doing far more crazy things</h1> 
+                    <p class="mb-4 animated bounceInUp delay-1s">Hi, I am Carlton Rodrigues<br>A bachelor of engineering in Computer Science<br>Currently based out of Mumbai city</p>
+                    <a href="#about" class="btn btn-success btn-lg animated bounceInUp delay-2s">About me</a>
+                    <a href="assets/my_resume.pdf" target="_blank" class="btn btn-success btn-lg animated bounceInUp delay-2s">View Resume</a>
                 </div>
-                <div id="stage-img" class="offset-lg-1 col-lg-5 d-none d-lg-block">
+                <div id="stage-img" class="offset-lg-1 col-lg-5 d-none d-lg-block animated fadeInRightBig delay-1s">
                     <img src="assets/cover_pic.png" alt="That's Carlton">
                 </div>
             </div>
             <!-- Back to top -->
-            <a class="toTop-fixed-button" href="#stage">
+            <a class="toTop-fixed-button animated bounceInUp" href="#stage">
                 <b id="toptextToggle">Back to top</b>
                 <i class="fas fa-angle-double-up" hidden></i> 
             </a>
             <!-- Fixed Feedback Button -->
-            <a class="feedback-fixed-button d-none d-lg-block" href="#main-footer">
+            <a class="feedback-fixed-button d-none d-lg-block animated bounceInUp delay-1s" href="#main-footer">
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>
                 <b id="textTogglefeed">Feedback</b>
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>      
@@ -66,11 +66,11 @@
 
     <section id="projects">
         <div class="container">
-            <h3 class="display-3 text-center">Projects</h3>
+            <h3 class="wow slideInUp display-3 text-center">Projects</h3>
             <hr>
             <div class="card-deck">
                 <div class="row">
-                    <div class="card">
+                    <div class="card wow slideInUp">
                         <img src="assets/alexa_bot.png" height="350px" class="card-img-top" alt="alexa bot thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Alexa Powered Robot</h5>
@@ -81,7 +81,7 @@
                             <a href="projects/1.php">Check out</a>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card wow slideInUp">
                         <img src="assets/emotia_card_img.jpg" height="350px" class="card-img-top" alt="Emotia Thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">Emotia - Mental Health Assessment Tool</h5>
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                
-                    <div class="card">
+                    <div class="card wow slideInUp">
                         <img src="assets/led_cube_card.jpg" height="350px" class="card-img-top" alt="LED cube thumbnail">
                         <div class="card-body">
                             <h5 class="card-title">8&times;8&times;8 LED Cube</h5>
@@ -108,7 +108,7 @@
             </div>
 
             
-            <div class="card mb-3 mt-5 mr-n3 ml-n3">
+            <div class="wow slideInUp slow card mb-3 mt-5 mr-n3 ml-n3">
                 <div class="card-header text-center">
                     <h5>Mini Projects</h5>   
                 </div>
@@ -169,11 +169,11 @@
     
     <section id="interests">
         <div class="container">
-            <h3 class="display-3 text-center">Interests</h3>
-            <p class="lead text-center">Something that is not on my resume</p>
+            <h3 class="wow slideInUp display-3 text-center">Interests</h3>
+            <p class="wow slideInUp lead text-center">Something that is not on my resume</p>
             <hr>
             <div class="card-columns">
-                <div class="card">
+                <div class="card wow slideInUp">
                     <img src="assets/pewdiepie.png" class="card-img-top" alt="PewDiePie">
                     <div class="card-body">
                         <h5 class="card-title">PewDiePie</h5>
@@ -181,7 +181,7 @@
                         <p class="card-text"><small class="text-muted">Well this channel was the one that got me hooked on to YouTube</small></p>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-dark text-white wow slideInUp">
                     <img src="assets/guitar_interest.jpg" class="card-img" alt="Guitar">
                     <div class="card-img-overlay">
                         <h5 class="card-title mt-5">Guitar</h5>
@@ -189,7 +189,7 @@
                         <p class="card-text">I have played guitar for choirs and bands</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp">
                     <img src="assets/david_gilmour.jpg" class="card-img-top" alt="David Gilmour">
                     <div class="card-body">
                         <h5 class="card-title">David Gimour</h5>
@@ -197,7 +197,7 @@
                         <p class="card-text"><small class="text-muted">His guitar riffs are a goosebumps generator</small></p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp">
                     <img src="assets/sentdex.png" class="card-img-top" alt="Sentdex">
                     <div class="card-body">
                         <h5 class="card-title">Sentdex</h5>
@@ -205,7 +205,7 @@
                         <p class="card-text"><small class="text-muted">His programming tutorials feel like you are coding with a friend on a video call</small></p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp">
                     <div class="card-body">
                         <h5 class="card-title">More Recommendations</h5>
                         <p class="card-text">Some more YouTube Channels for programming</p>
@@ -216,7 +216,7 @@
                         <li class="list-group-item">Hitesh Choudhary</li>
                     </ul>
                 </div>
-                <div class="card bg-dark ">
+                <div class="card bg-dark wow slideInUp">
                     <img src="assets/python_back.jpg" class="card-img" alt="Python">
                     <div class="card-img-overlay">
                         <h5 class="card-title mt-2 pt-3">Favourite Programming language: Python</h5>
@@ -228,7 +228,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="card bg-dark text-white">
+                <div class="card bg-dark text-white wow slideInUp">
                     <img src="assets/elon_musk.jpg" class="card-img" alt="Elon Musk">
                     <div class="card-img-overlay">
                         <h5 class="card-title">Elon Musk</h5>
@@ -236,7 +236,7 @@
                         <p class="card-text">The man who has inspired me to become a better problem solver</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp">
                     <div class="card-body">
                         <h5 class="card-title">Books on people</h5>
                         <p class="card-text">Collection of books I have read on amazing people.</p>
@@ -248,21 +248,21 @@
                         <li class="list-group-item">Wings of fire <small>- A.P.J. Abdul Kalam</small></li>
                     </ul>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center wow slideInUp">
                     <div class="card-body">
                         <h5 class="card-title">Migrating to Mars</h5>
                         <p class="card-text">I believe firmly that humans need to be a multiplanetary species</p>
                         <p class="card-text"><small class="text-muted">I would love to contribute my skills in that direction</small></p>
                     </div>
                 </div>
-                <div class="card text-center">
+                <div class="card text-center wow slideInUp">
                     <div class="card-body">
                         <h5 class="card-title">The mezmerizing universe</h5>
                         <p class="card-text">I love reading and watching videos on different theories of the universe</p>
                         <p class="card-text"><small class="text-muted">Especially the ones on <b>black holes</b></small></p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp">
                     <div class="card-header">
                         <h5>Space News</h5>
                     </div>
@@ -286,9 +286,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    <h6>This guy</h6>
-                    <h2>Who am I?</h2>
-                    <p>Hi, I am Carlton Rodrigues a Computer Science Engineer. I obtained my bachelor's degree 
+                    <h6 class="wow slideInLeft slow">This guy</h6>
+                    <h2 class="wow slideInLeft">Who am I?</h2>
+                    <p class="wow slideInLeft fast">Hi, I am Carlton Rodrigues a Computer Science Engineer. I obtained my bachelor's degree 
                         in Computer Science in St. Joseph Engineering College which is affiliated by the Visveswaraya 
                         Technological University.<br><br>
                         I still remember when my parents brought home a computer system I was fascinated by it. 
@@ -307,24 +307,24 @@
                     </p>
                 </div>
                 <div class="col-lg-5 offset-lg-1">
-                    <img class="img-style" src="assets/about_carl.jpg" alt="">
+                    <img class="img-style wow slideInRight slow" src="assets/about_carl.jpg" alt="">
                     <hr>
-                    <a href="assets/my_resume.pdf" class="btn btn-lg btn-outline-success" target="_blank">View Resume</a>
-                    <h5 class="mt-4 mb-2">Connect with me</h5>
+                    <a href="assets/my_resume.pdf" class="btn btn-lg btn-outline-success wow slideInRight" target="_blank">View Resume</a>
+                    <h5 class="mt-4 mb-2 wow slideInUp faster">Connect with me</h5>
                     <a href="https://www.facebook.com/carlos.rodrigues.967422" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
+                        <i class="wow slideInUp fast fab fa-facebook-f"></i>
                     </a>
                     <a href="https://linkedin.com/in/carlton-rodrigues" target="_blank">
-                        <i class="fab fa-linkedin-in"></i>
+                        <i class="wow slideInUp fab fa-linkedin-in"></i>
                     </a>
                     <a href="https://twitter.com/CarltonRodz?s=09" target="_blank">
-                        <i class="fab fa-twitter"></i>
+                        <i class="wow slideInUp slow fab fa-twitter"></i>
                     </a>
                     <a href="https://github.com/Carlton627" target="_blank">
-                        <i class="fab fa-github-alt"></i>
+                        <i class="wow slideInUp slower fab fa-github-alt"></i>
                     </a>
-                    <h5 class="mt-3">Or send me an email:</h5>
-                    <div class="input-group">
+                    <h5 class="wow slideInUp mt-3">Or send me an email:</h5>
+                    <div class="wow slideInUp slow input-group">
                         <input id="myEmail" type="text" class="form-control" value="carlton.anthony.rodrigues@gmail.com" disabled>
                         <div id="tooltip" class="input-group-append">
                             <button class="btn btn-success" onclick="copy()" onmouseout="out()" type="button">

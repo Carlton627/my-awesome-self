@@ -5,7 +5,7 @@
             <p id="notify" class="mb-n2" hidden><small class="text-white"></small></p>
             <?php 
                 if(isset($_POST['content'])) {
-                    $conn = mysqli_connect("localhost","id10717109_carlos","tLy28FxQT*jgacu","id10717109_feedback");
+                    $conn = mysqli_connect("localhost","u999037901_bape","nuByQeXeHe","u999037901_bape");
                     if(!$conn) {
                         die("Connection failed: " . mysqli_connect_error());
                     }

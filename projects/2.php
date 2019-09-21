@@ -1,6 +1,6 @@
 <?php include '../includes/project_template.php' ?>  
     
-    <div id="project-stage" class="jumbotron jumbotron-fluid">
+    <div id="project-stage" class="jumbotron jumbotron-fluid animated zoomIn">
         <div class="container">
             <h1 class="display-4">Emotia</h1>
             <p class="lead">Project for my final year of B.E.</p>
@@ -8,7 +8,7 @@
     </div>
     
         <section id="project-desc">
-            <div class="container mt-5">
+            <div class="container mt-5 wow slideInUp">
                 <h3>Emotia: A mental health assessment tool</h3><hr>
                 <p>A 3 step diagnosis procedure that processes tone and face emotions along with 
                     a MCQ questionnaire. These 3 steps will generate data that will help detect level of depression.</p>
@@ -16,7 +16,7 @@
                 <div class="row mt-5">
                     <div class="col-lg-6">
                         <caption><h5>Emotia Web App Homepage</h5></caption>
-                        <img class="img-style" src="../assets/emotia_home.png" alt="emotia project image">
+                        <img class="img-style wow zoomIn" src="../assets/emotia_home.png" alt="emotia project image">
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <!-- TODO: fix alignment of abstract on small devices -->
@@ -53,8 +53,8 @@
         </section>
 
         <section id="how-it-helped">
-            <div class="container">
-                <div class="">
+            <div class="container wow zoomIn">
+                <div class="wow slideInLeft slow">
                     <h3>How it helped me?</h3><hr>
                     <p>Working on this project I had to learn a lot of new things like neural networks, Support Vector Machines (SVM) and training and testing these models and deploying them. The doors of machine learning opened for me while working on this project.  Machine Learning can provide optimal solutions to modern-day problems. 
                     On the other hand, my ability to work in a team and relate on an emotional level to my team-mates has increased dramatically.</p>
@@ -64,7 +64,7 @@
 
         <section id="project-showcase">
             <div class="accordion" id="projectAccordion">
-                <div class="card">
+                <div class="card wow slideInUp fast">
                     <div class="card-header" id="headingOne">
                         <div class="row">
                             <div class="col-lg-8">
@@ -101,7 +101,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp">
                     <div class="card-header" id="headingTwo">
                         <div class="row">
                             <div class="col-lg-8">
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp fast">
                     <div class="card-header" id="headingThree">
                         <div class="row">
                             <div class="col-lg-8">
@@ -172,7 +172,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card wow slideInUp faster">
                     <div class="card-header" id="headingFour">
                         <div class="row">
                             <div class="col-lg-8">
