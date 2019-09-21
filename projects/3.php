@@ -15,7 +15,7 @@
                         <caption><h5>The Arduino UNO</h5></caption>
                         <img class="img-style wow zoomIn" src="../assets/arduino.jpg" alt="Led cube image">
                     </div>
-                    <div class="col-lg-5 offset-lg-1">
+                    <div class="col-lg-5 offset-lg-1 mt-4 mt-lg-0">
                         <!-- TODO: fix alignment of abstract on small devices -->
                         <h6>ABSTRACT</h6>
                         <p>With the dawn of a variety of electronics prototyping boards, it became very easy to prototype new ideas. 

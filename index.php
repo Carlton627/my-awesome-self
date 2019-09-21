@@ -38,7 +38,7 @@
     <section id="stage">
         <div class="container">
             <div class="row">
-                <div id="stage-caption" class="col-lg-6">
+                <div id="stage-caption" class="col-lg-6 mb-4 mb-lg-0">
                     <h1 class="display-3 mb-4 animated bounceInLeft delay-1s">Some crazy guy, doing far more crazy things</h1> 
                     <p class="mb-4 animated bounceInUp delay-1s">Hi, I am Carlton Rodrigues<br>A bachelor of engineering in Computer Science<br>Currently based out of Mumbai city</p>
                     <a href="#about" class="btn btn-success btn-lg animated bounceInUp delay-2s">About me</a>
