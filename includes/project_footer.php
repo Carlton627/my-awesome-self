@@ -13,9 +13,9 @@
                 <div class="col-lg-5 ml-auto wow bounceInUp">
                     <p class="lead">&copy 2019 Copyright: Carlton Rodrigues</p>
                     <h6>also find me on coding websites</h6><hr>
-                    <a href="" class="btn btn-outline-secondary">codechef</a>
-                    <a href="" class="btn btn-outline-secondary">hackerrank</a>
-                    <a href="" class="btn btn-outline-secondary">techgig</a>
+                    <a target="_blank" href="" class="btn btn-outline-secondary">codechef</a>
+                    <a target="_blank" href="https://www.hackerrank.com/CarltonRodrigues" class="btn btn-outline-secondary">hackerrank</a>
+                    <a target="_blank" href="https://www.techgig.com/carltonrodrigues4" class="btn btn-outline-secondary">techgig</a>
                 </div>
             </div> <hr>
             <?php include_once '../includes/form.php'; ?>
