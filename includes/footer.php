@@ -30,3 +30,8 @@
     <script src="bootstrap-4.3.1/dist/js/bootstrap.min.js"></script>
     <script src="../js/wow.min.js" type="text/javascript"></script>
     <script> new WOW().init() </script>
+    <script>
+        if ( window.history.replaceState ) {
+            window.history.replaceState( null, null, window.location.href );
+        }
+    </script>
