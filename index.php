@@ -50,13 +50,12 @@
             </div>
             <!-- Back to top -->
             <a class="toTop-fixed-button animated bounceInUp" href="#stage">
-                <b id="toptextToggle">Back to top</b>
-                <i class="fas fa-angle-double-up" hidden></i> 
+                <span class="oi oi-chevron-top" title="back to top"></span> 
             </a>
             <!-- Fixed Feedback Button -->
             <a class="feedback-fixed-button d-none d-lg-block animated bounceInUp delay-1s" href="#main-footer">
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>
-                <b id="textTogglefeed">Feedback</b>
+                <b>Feedback</b>
                 <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>      
             </a>
         </div>

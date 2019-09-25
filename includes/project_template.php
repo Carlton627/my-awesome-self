@@ -29,8 +29,7 @@
     </nav>
 
     <a class="toTop-fixed-button animated bounceInUp" href="#project-stage">
-        <b id="toptextToggle">Back to top</b>
-        <i class="fas fa-angle-double-up" hidden></i> 
+        <span class="oi oi-chevron-top" title="back to top"></span> 
     </a>
     <a class="feedback-fixed-button d-none d-lg-block animated bounceInUp delay-1s" href="#main-footer">
         <span class="oi oi-chevron-bottom" title="read more" aria-hidden="true" hidden></span>

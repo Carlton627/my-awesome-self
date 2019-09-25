@@ -9,17 +9,3 @@ window.addEventListener("scroll", () => {
     }
 })
 
-var width = window.innerWidth
-|| document.documentElement.clientWidth
-|| document.body.clientWidth;
-
-if (width < 973) {
-    toparrow.hidden = false
-} else {
-    topbtn.addEventListener("mouseover", () => {
-        toparrow.hidden = false
-    }) 
-    topbtn.addEventListener("mouseout", () => {
-        toparrow.hidden = true
-    })    
-}
