@@ -310,9 +310,6 @@
                     <hr>
                     <a href="assets/my_resume.pdf" class="btn btn-lg btn-outline-success wow slideInRight" target="_blank">View Resume</a>
                     <h5 class="mt-4 mb-2 wow slideInUp faster">Connect with me</h5>
-                    <a href="https://www.facebook.com/carlos.rodrigues.967422" target="_blank">
-                        <i class="wow slideInUp fast fab fa-facebook-f"></i>
-                    </a>
                     <a href="https://linkedin.com/in/carlton-rodrigues" target="_blank">
                         <i class="wow slideInUp fab fa-linkedin-in"></i>
                     </a>
