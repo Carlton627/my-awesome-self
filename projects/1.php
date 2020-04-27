@@ -17,7 +17,6 @@
                     <img class="img-style" src="../assets/alexa_img.png" alt="The amazon echo dot">
                 </div>
                 <div class="col-lg-5 offset-lg-1 mt-4 mt-lg-0">
-                    <!-- TODO: fix alignment of abstract on small devices -->
                     <h6>ABSTRACT</h6>
                     <p>Integrating the Amazon Alexa AI technology to control a robotic system using voice commands.
                     The Amazon Alexa app lets you add any network enabled device to be controlled by voice. This feature

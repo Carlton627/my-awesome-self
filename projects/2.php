@@ -19,7 +19,6 @@
                         <img class="img-style wow zoomIn" src="../assets/emotia_home.png" alt="emotia project image">
                     </div>
                     <div class="col-lg-5 offset-lg-1 mt-4 mt-lg-0">
-                        <!-- TODO: fix alignment of abstract on small devices -->
                         <h6>ABSTRACT</h6>
                         <p>Mental health plays an important role in having a good and productive day, but it is often ignored due to many reasons one of them being the cost of diagnosis.
                             People end up spending tons of money for diagnosis through a psychiatrist, most of the time there is a high probability of having no disorder at all, just a minor episode of depression, this leads to unnecessary heavy expenditure.<br>
