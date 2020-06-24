@@ -2,14 +2,14 @@
 
 **Version 1.0.0**
 
-A website to showcase my portfolio. [Go to website](https://www.carltonrodrigues.com){:target="_blank"}
+A website to showcase my portfolio. [Go to website](https://www.carltonrodrigues.com)
+---
 
 ## Technologies Used:
 1. JavaScript
 2. PHP7
 3. HTML5 & CSS3
 4. MySQL
-
 ---
 
 ## Copyright
