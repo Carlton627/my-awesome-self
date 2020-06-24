@@ -2,7 +2,7 @@
 
 **Version 1.0.0**
 
-A website to showcase my portfolio. [Go to website](https://www.carltonrodrigues.com)
+A website to showcase my portfolio. [Go to website](https://www.carltonrodrigues.com){:target="_blank"}
 
 ## Technologies Used:
 1. JavaScript
