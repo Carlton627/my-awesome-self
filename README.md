@@ -3,6 +3,7 @@
 **Version 1.0.0**
 
 A website to showcase my portfolio. [Go to website](https://www.carltonrodrigues.com)
+
 ---
 
 ## Technologies Used:
