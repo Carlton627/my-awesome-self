@@ -1,4 +1,3 @@
-<!-- TODO: redesign footer  -->
 
     <footer id="main-footer">
         <div class="container">

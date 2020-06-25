@@ -4,6 +4,7 @@
     <title>Carlton Rodrigues</title>
 </head>
 <body>
+    <!-- TODO: Remove Space News and Feedback Form -->
     <!-- Navigation Bar   -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
         <a class="navbar-brand animated fadeInLeftBig" href="">

@@ -7,7 +7,9 @@
 
 <body>
     <nav class="navbar navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand animated fadeInLeftBig" href="../index.php">Carlton</a>
+        <a class="navbar-brand animated fadeInLeftBig" href="../index.php">
+            <img src="../assets/my_logo.png" alt="" height="30" width="50"/>
+        </a>
         <h3 class="display-5 text-white mr-4 animated fadeInDownBig">Projects</h3>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#project-nav" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
