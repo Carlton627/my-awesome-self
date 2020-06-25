@@ -6,7 +6,9 @@
 <body>
     <!-- Navigation Bar   -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark">
-        <a class="navbar-brand animated fadeInLeftBig" href="">Carlton</a>
+        <a class="navbar-brand animated fadeInLeftBig" href="">
+            <img src="assets/my_logo.png" alt="" height="30" width="50"/>
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-main" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
