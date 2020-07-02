@@ -272,3 +272,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* copy to clipboard style ends */
+
+/* Custom scroll bar */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: gray darkgray;
+}
+
+/* Works on Chrome/Edge/Safari */
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar:hover {
+  width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: darkgray;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 20px;
+}
