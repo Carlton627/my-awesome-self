@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-**Version 1.0.0**
+**Version 1.2.0**
 
 A website to showcase my portfolio. [Go to website](https://www.carltonrodrigues.com)
 
