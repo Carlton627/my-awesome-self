@@ -19,8 +19,7 @@
                     <a target="_blank" href="https://www.hackerrank.com/CarltonRodrigues" class="btn btn-outline-secondary">hackerrank</a>
                     <a target="_blank" href="https://www.techgig.com/carltonrodrigues4" class="btn btn-outline-secondary">techgig</a>
                 </div>
-            </div> <hr>
-            <?php include_once 'includes/form.php'; ?>
+            </div> 
         </div>
     </footer>
 
