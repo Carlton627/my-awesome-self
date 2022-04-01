@@ -1,16 +1,16 @@
 # My Portfolio Website
 
-**Version 1.2.0**
+**Version 2.0.0**
 
 A website to showcase my portfolio. [Go to website](https://www.carltonrodrigues.com)
 
 ---
 
 ## Technologies Used:
-1. JavaScript
-2. PHP7
-3. HTML5 & CSS3
-4. MySQL
+
+1. Vanilla JavaScript
+2. HTML5 & CSS3
+
 ---
 
 ## Copyright
